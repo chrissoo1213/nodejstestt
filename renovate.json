@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "schedule": [
+    "at any time"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    }
+  ]
+}

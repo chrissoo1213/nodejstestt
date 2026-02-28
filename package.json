@@ -1,0 +1,17 @@
+{
+  "name": "old-nodejs-project",
+  "version": "1.0.0",
+  "description": "Simple old Node.js project with CI and Renovate",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Building project...",
+    "lint": "echo Linting project...",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
